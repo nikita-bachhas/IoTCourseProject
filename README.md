@@ -3,7 +3,8 @@
 ## Image Classification of Flowers using an Android Application
  Users can take or upload any image of a flower and the type of flower is recognised and returned 
 
-1. flowersDataset obtained from 2 different datasets on Kaggle: [Dataset 1](https://www.kaggle.com/datasets/alxmamaev/flowers-recognition) and [Dataset 2](https://www.kaggle.com/datasets/l3llff/flowers), which contains the following categories of flowers:
+1. flowersDataset obtained from the following dataset found on Kaggle: [Flower Dataset](https://www.kaggle.com/datasets/l3llff/flowers) 
+2. The dataset contains the following 16 categories of flowers:
    - Astilbe
    - Bellflower
    - Black Eyed Susan
@@ -20,3 +21,4 @@
    - Sunflower
    - Tulip
    - Water Lily
+3. Along with this, the folder testImages contains images which are used to test the accuracy of the image classification model that is trained

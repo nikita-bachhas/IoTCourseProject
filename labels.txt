@@ -1,0 +1,16 @@
+0 Astilbe
+1 Bellflower
+2 Black Eyed Susan
+3 Calendula
+4 California Poppy
+5 Carnation
+6 Coreopsis
+7 Daffodil
+8 Daisy
+9 Dandelion
+10 Iris
+11 Magnolia
+12 Rose
+13 Sunflower
+14 Tulip
+15 Water Lily
