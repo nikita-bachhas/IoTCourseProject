@@ -2,8 +2,12 @@
 
 ## Image Classification of Flowers using an Android Application
  Users can take or upload any image of a flower and the type of flower is recognised and returned 
+
+## Project Documents
+1. YouTube Video:
+2. Presentation Slides:
  
- ## Training of Model
+## Training of Model
  
  `Dataset`
  - flowersDataset obtained from the following dataset found on Kaggle: [Flower Dataset](https://www.kaggle.com/datasets/l3llff/flowers) 
@@ -60,6 +64,11 @@
 ![Loss Per Epoch](https://user-images.githubusercontent.com/72136295/235311109-4c5b1acd-68be-42ff-b72a-2f35543ee87b.png)
 
  ## Development of Android Application
+
+1. Install Android Studio Flamingo 
+2. Download folder IoTAndroidApplication
+3. Open folder in Android Studip
+4. Run on either Emulated Device or Physical Device
  
  ## Flask Server
 
