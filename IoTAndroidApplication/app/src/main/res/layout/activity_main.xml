@@ -11,11 +11,12 @@
         android:layout_width="420dp"
         android:layout_height="64dp"
         android:background="#F7EDE2"
-        android:textSize="30sp"
-        android:textAlignment="center"
         android:paddingTop="10dp"
-        android:layout_marginLeft="250dp"
-        android:text="Flower Identifier"/>
+        android:text="Flower Identification Application"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <ImageView
         android:id="@+id/image_preview"
@@ -34,9 +35,9 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="380dp"
+        android:layout_width="410dp"
         android:layout_height="30dp"
-        android:layout_marginBottom="52dp"
+        android:layout_marginBottom="48dp"
         android:text="To begin, select an image from your gallery"
         android:textAlignment="center"
         android:textColor="#716C6C"
@@ -44,14 +45,14 @@
         android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.806"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="400dp"
+        android:layout_width="410dp"
         android:layout_height="30dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="16dp"
         android:text="or take one using your camera to predict image"
         android:textAlignment="center"
         android:textColor="#716C6C"
@@ -59,7 +60,7 @@
         android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
