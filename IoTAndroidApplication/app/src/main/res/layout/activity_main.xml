@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image_preview"
+        android:layout_width="420dp"
+        android:layout_height="251dp"
+        android:background="#F4E4E4"
+        android:cropToPadding="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.179"
+        app:srcCompat="@drawable/imageplaceholder"
+        tools:srcCompat="@drawable/imageplaceholder" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="280dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="32dp"
+        android:text="Select Image or Take Photo using Camera to Predict Image"
+        android:textAlignment="center"
+        android:textColor="#716C6C"
+        android:textColorHighlight="#00C58F8F"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/select_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="52dp"
+        android:background="#D5F6FA"
+        android:text="GALLERY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_preview" />
+
+    <Button
+        android:id="@+id/predict_btn"
+        android:layout_width="300dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="19dp"
+        android:background="#FFFBD7"
+        android:text="PREDICT"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/select_btn"
+        app:layout_constraintVertical_bias="0.397" />
+
+    <Button
+        android:id="@+id/camera_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:background="#E8EAD4"
+        android:text="CAMERA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toEndOf="@+id/select_btn"
+        app:layout_constraintTop_toBottomOf="@+id/image_preview" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
