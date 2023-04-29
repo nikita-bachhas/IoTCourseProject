@@ -69,6 +69,9 @@
 2. Download folder IoTAndroidApplication
 3. Open folder in Android Studip
 4. Change IP Address to your own in *NetworkClient.java* 
+
+<img width="503" alt="NetworkClient java IP Address" src="https://user-images.githubusercontent.com/72136295/235318182-a777f42e-1629-40c1-9e86-cd296bc85bce.png">
+
 5. Run on either Emulated Device or Physical Device
  
 ## Flask Server
@@ -84,6 +87,11 @@
 7. Install TenserFlow using the following command: **conda install -c conda-forge tensorflow**
 8. Install all necessary packages: *pillow, flask, etc*
 9. Change IP Address to your own in *test.py* and the port number you are utilising in *model.py*
+
+<img width="1179" alt="test py Water Lily Test File" src="https://user-images.githubusercontent.com/72136295/235317822-a163fd4a-706a-4c32-86fc-004e8d818dfe.png">
+
+<img width="378" alt="model py Port Number" src="https://user-images.githubusercontent.com/72136295/235318212-e19e295c-f78c-44c5-8de6-3c7c19aad6fc.png">
+
 10. Run python file, using the following command: **python *runfile.py*** 
 11. To deativate the Conda Environment, run the following command: **conda deactivate**
 
