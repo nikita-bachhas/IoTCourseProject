@@ -73,6 +73,7 @@
 ## Flask Server
 
 `Steps to Start & Run Flask Server`
+
 1. Ensure Python Version > 3.8 using the following command: **python3 --version**
 2. Ensure Pip Version > 20.3: **pip3 --version**
 3. Install Miniconda using the following command: **curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o Miniconda3-latest-MacOSX-x86_64.shbash Miniconda3-latest-MacOSX-x86_64.sh**
@@ -85,5 +86,9 @@
 10. To deativate the Conda Environment, run the following command: **conda deactivate**
 
 `test.py Results`
+
+<img width="1179" alt="test py Water Lily Test File" src="https://user-images.githubusercontent.com/72136295/235317822-a163fd4a-706a-4c32-86fc-004e8d818dfe.png">
+
+<img width="982" alt="test py Water Lily Test Results" src="https://user-images.githubusercontent.com/72136295/235317829-cdd824a3-cfae-4791-a0d4-2d853ffbfa8f.png">
 
  ## Utilisation of Virtual Machine on Google Cloud Platform
