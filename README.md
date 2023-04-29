@@ -63,13 +63,23 @@
 
 ![Loss Per Epoch](https://user-images.githubusercontent.com/72136295/235311109-4c5b1acd-68be-42ff-b72a-2f35543ee87b.png)
 
- ## Development of Android Application
+## Development of Android Application
 
 1. Install Android Studio Flamingo 
 2. Download folder IoTAndroidApplication
 3. Open folder in Android Studip
 4. Run on either Emulated Device or Physical Device
  
- ## Flask Server
+## Flask Server
+1. Ensure Python Version > 3.8 using the following command: **python3 --version**
+2. Ensure Pip Version > 20.3: **pip3 --version**
+3. Install Miniconda using the following command: **curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o Miniconda3-latest-MacOSX-x86_64.shbash Miniconda3-latest-MacOSX-x86_64.sh**
+4. Create a Conda Environment using the following command: **conda create --name tf python=3.9**
+5. Activate Conda Evironment using the following command: **conda activate tf**
+6. Upgrade Pip using the following command: **pip install --upgrade pip**
+7. Install TenserFlow using the following command: **conda install -c conda-forge tensorflow**
+8. Install all necessary packaged
+9. Run python file, using the following command: **python *runfile.py*** 
+10. To deativate the Conda Environment, run the following command: **conda deactivate**
 
  ## Utilisation of Virtual Machine on Google Cloud Platform

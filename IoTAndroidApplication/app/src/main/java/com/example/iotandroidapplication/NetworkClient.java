@@ -6,7 +6,7 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 public class NetworkClient {
     private static Retrofit retrofit;
-    private static final String BASE_URL = "http://192.168.10.141:5000";
+    private static final String BASE_URL = "http://192.168.10.141:8000";
 
     public static Retrofit getRetrofit() {
         OkHttpClient okHttpClient = new OkHttpClient.Builder().build();
