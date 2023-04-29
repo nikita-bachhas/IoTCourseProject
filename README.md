@@ -1,4 +1,4 @@
-# IoT Course Project - Flower Identifcation Application
+# IoT Course Project - Flower Identification Application
 
 ## Image Classification of Flowers using an Android Application
  Users can take or upload any image of a flower and the type of flower is recognised and returned 
@@ -58,3 +58,9 @@
 - Loss Per Epoch:
 
 ![Loss Per Epoch](https://user-images.githubusercontent.com/72136295/235311109-4c5b1acd-68be-42ff-b72a-2f35543ee87b.png)
+
+ ## Development of Android Application
+ 
+ ## Flask Server
+
+ ## Utilisation of Virtual Machine on Google Cloud Platform
