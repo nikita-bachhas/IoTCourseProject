@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="420dp"
+        android:layout_height="64dp"
+        android:background="#F7EDE2"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="250dp"
+        android:text="Flower Identifier"/>
+
     <ImageView
         android:id="@+id/image_preview"
         android:layout_width="420dp"
@@ -14,10 +25,10 @@
         android:cropToPadding="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.272"
+        app:layout_constraintVertical_bias="0.222"
         app:srcCompat="@drawable/imageplaceholder"
         tools:srcCompat="@drawable/imageplaceholder" />
 
@@ -41,7 +52,7 @@
         android:layout_width="400dp"
         android:layout_height="30dp"
         android:layout_marginBottom="20dp"
-        android:text="or take one using your Camera to predict image"
+        android:text="or take one using your camera to predict image"
         android:textAlignment="center"
         android:textColor="#716C6C"
         android:textColorHighlight="#00C58F8F"
@@ -53,40 +64,43 @@
 
     <Button
         android:id="@+id/camera_btn"
-        android:layout_width="130dp"
+        android:layout_width="150dp"
         android:layout_height="80dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="72dp"
         android:backgroundTint="#f28482"
         android:text="CAMERA"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintHorizontal_bias="0.626"
         app:layout_constraintStart_toEndOf="@+id/select_btn"
         app:layout_constraintTop_toBottomOf="@+id/image_preview" />
 
     <Button
         android:id="@+id/select_btn"
-        android:layout_width="130dp"
+        android:layout_width="150dp"
         android:layout_height="80dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="72dp"
         android:backgroundTint="#f5CAC3"
         android:text="GALLERY"
+        android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/image_preview" />
 
     <Button
         android:id="@+id/predict_btn"
-        android:layout_width="300dp"
+        android:layout_width="350dp"
         android:layout_height="80dp"
         android:layout_marginTop="24dp"
         android:layout_marginBottom="19dp"
         android:backgroundTint="#84a59d"
         android:text="PREDICT"
+        android:textSize="25dp"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/select_btn"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.375" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
