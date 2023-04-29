@@ -71,6 +71,8 @@
 4. Run on either Emulated Device or Physical Device
  
 ## Flask Server
+
+`Steps to Start & Run Flask Server`
 1. Ensure Python Version > 3.8 using the following command: **python3 --version**
 2. Ensure Pip Version > 20.3: **pip3 --version**
 3. Install Miniconda using the following command: **curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o Miniconda3-latest-MacOSX-x86_64.shbash Miniconda3-latest-MacOSX-x86_64.sh**
@@ -78,8 +80,10 @@
 5. Activate Conda Evironment using the following command: **conda activate tf**
 6. Upgrade Pip using the following command: **pip install --upgrade pip**
 7. Install TenserFlow using the following command: **conda install -c conda-forge tensorflow**
-8. Install all necessary packaged
+8. Install all necessary packages: *pillow, flask, etc*
 9. Run python file, using the following command: **python *runfile.py*** 
 10. To deativate the Conda Environment, run the following command: **conda deactivate**
+
+`test.py Results`
 
  ## Utilisation of Virtual Machine on Google Cloud Platform
