@@ -36,31 +36,16 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="410dp"
-        android:layout_height="30dp"
-        android:layout_marginBottom="48dp"
-        android:text="To begin, select an image from your gallery"
-        android:textAlignment="center"
-        android:textColor="#716C6C"
-        android:textColorHighlight="#00C58F8F"
-        android:textSize="17sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.806"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="410dp"
-        android:layout_height="30dp"
+        android:layout_height="50dp"
         android:layout_marginBottom="16dp"
-        android:text="or take one using your camera to predict image"
+        android:text="To begin, select an image from your gallery or take one using your camera to identify image"
         android:textAlignment="center"
         android:textColor="#716C6C"
         android:textColorHighlight="#00C58F8F"
         android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -95,7 +80,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginBottom="19dp"
         android:backgroundTint="#84a59d"
-        android:text="PREDICT"
+        android:text="IDENTIFY"
         android:textSize="25dp"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
