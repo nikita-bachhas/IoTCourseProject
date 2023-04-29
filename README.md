@@ -68,7 +68,8 @@
 1. Install Android Studio Flamingo 
 2. Download folder IoTAndroidApplication
 3. Open folder in Android Studip
-4. Run on either Emulated Device or Physical Device
+4. Change IP Address to your own in *NetworkClient.java* 
+5. Run on either Emulated Device or Physical Device
  
 ## Flask Server
 
@@ -82,8 +83,9 @@
 6. Upgrade Pip using the following command: **pip install --upgrade pip**
 7. Install TenserFlow using the following command: **conda install -c conda-forge tensorflow**
 8. Install all necessary packages: *pillow, flask, etc*
-9. Run python file, using the following command: **python *runfile.py*** 
-10. To deativate the Conda Environment, run the following command: **conda deactivate**
+9. Change IP Address to your own in *test.py* and the port number you are utilising in *model.py*
+10. Run python file, using the following command: **python *runfile.py*** 
+11. To deativate the Conda Environment, run the following command: **conda deactivate**
 
 `test.py Results`
 
