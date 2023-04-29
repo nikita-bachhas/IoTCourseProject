@@ -1,8 +1,8 @@
 0 Astilbe
 1 Bellflower
-2 Black Eyed Susan
+2 Black Eyed S...
 3 Calendula
-4 California Poppy
+4 California P...
 5 Carnation
 6 Coreopsis
 7 Daffodil
