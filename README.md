@@ -95,7 +95,12 @@
 10. Run python file, using the following command: **python *runfile.py*** 
 11. To deativate the Conda Environment, run the following command: **conda deactivate**
 
-`test.py Results`
+`test.py`
+1. Add any flower image that you wish to test to the following folder: [testImages](https://github.com/nikita-bachhas/IoTCourseProject/tree/main/testImages)
+2. Change the following file path in [test.py](https://github.com/nikita-bachhas/IoTCourseProject/blob/main/testImages/test.py): *resp = requests.post("http://192.168.10.141:8000", files={'file': open('/Users/nikitabachhas/IoTCourseProject/IoTCourseProject/TestImages/water_lily.jpg', 'rb')})*
+
+`test.py results`
+ - The following imges shows the results obtained when the test image of a water lily is used to test the integration of the flask server with the model and the accuracy of the model:
 
 <img width="1179" alt="test py Water Lily Test File" src="https://user-images.githubusercontent.com/72136295/235317822-a163fd4a-706a-4c32-86fc-004e8d818dfe.png">
 
