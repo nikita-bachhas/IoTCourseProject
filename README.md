@@ -79,7 +79,7 @@
 `Steps to Start & Run Flask Server`
 
 1. Download folder [FlaskServer](https://github.com/nikita-bachhas/IoTCourseProject/tree/main/FlaskServer) and open in any IDE
-2.Ensure Python Version > 3.8 using the following command: **python3 --version**
+2. Ensure Python Version > 3.8 using the following command: **python3 --version**
 3. Ensure Pip Version > 20.3: **pip3 --version**
 4. Install Miniconda using the following command: **curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o Miniconda3-latest-MacOSX-x86_64.shbash Miniconda3-latest-MacOSX-x86_64.sh**
 5. Create a Conda Environment using the following command: **conda create --name tf python=3.9**
