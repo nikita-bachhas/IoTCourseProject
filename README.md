@@ -4,8 +4,8 @@
  Users can take or upload any image of a flower and the type of flower is recognised and returned 
 
 ## Project Documents
-1. YouTube Video:
-2. Presentation Slides:
+1. [YouTube Video]()
+2. [Presentation Slides]()
  
 ## Training of Model
  
@@ -66,8 +66,8 @@
 ## Development of Android Application
 
 1. Install Android Studio Flamingo 
-2. Download folder IoTAndroidApplication
-3. Open folder in Android Studip
+2. Download folder [IoTAndroidApplication](https://github.com/nikita-bachhas/IoTCourseProject/tree/main/IoTAndroidApplication)
+3. Open folder in Android Studio
 4. Change IP Address to your own in *NetworkClient.java* 
 
 <img width="503" alt="NetworkClient java IP Address" src="https://user-images.githubusercontent.com/72136295/235318182-a777f42e-1629-40c1-9e86-cd296bc85bce.png">
@@ -78,24 +78,26 @@
 
 `Steps to Start & Run Flask Server`
 
-1. Ensure Python Version > 3.8 using the following command: **python3 --version**
-2. Ensure Pip Version > 20.3: **pip3 --version**
-3. Install Miniconda using the following command: **curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o Miniconda3-latest-MacOSX-x86_64.shbash Miniconda3-latest-MacOSX-x86_64.sh**
-4. Create a Conda Environment using the following command: **conda create --name tf python=3.9**
-5. Activate Conda Evironment using the following command: **conda activate tf**
-6. Upgrade Pip using the following command: **pip install --upgrade pip**
-7. Install TenserFlow using the following command: **conda install -c conda-forge tensorflow**
-8. Install all necessary packages: *pillow, flask, etc*
-9. Change IP Address to your own in *test.py* and the port number you are utilising in *model.py*
+1. Download folder [FlaskServer](https://github.com/nikita-bachhas/IoTCourseProject/tree/main/FlaskServer) and open in any IDE
+2.Ensure Python Version > 3.8 using the following command: **python3 --version**
+3. Ensure Pip Version > 20.3: **pip3 --version**
+4. Install Miniconda using the following command: **curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o Miniconda3-latest-MacOSX-x86_64.shbash Miniconda3-latest-MacOSX-x86_64.sh**
+5. Create a Conda Environment using the following command: **conda create --name tf python=3.9**
+6. Activate Conda Evironment using the following command: **conda activate tf**
+7. Upgrade Pip using the following command: **pip install --upgrade pip**
+8. Install TenserFlow using the following command: **conda install -c conda-forge tensorflow**
+9. Install all necessary packages: *pillow, flask, etc*
+10. Change IP Address to your own in *test.py* and the port number you are utilising in *model.py*
 
 <img width="1179" alt="test py Water Lily Test File" src="https://user-images.githubusercontent.com/72136295/235317822-a163fd4a-706a-4c32-86fc-004e8d818dfe.png">
 
 <img width="378" alt="model py Port Number" src="https://user-images.githubusercontent.com/72136295/235318212-e19e295c-f78c-44c5-8de6-3c7c19aad6fc.png">
 
-10. Run python file, using the following command: **python *runfile.py*** 
-11. To deativate the Conda Environment, run the following command: **conda deactivate**
+11. Run python file, using the following command: **python *runfile.py*** 
+12. To deativate the Conda Environment, run the following command: **conda deactivate**
 
 `test.py`
+
 1. Add any flower image that you wish to test to the following folder: [testImages](https://github.com/nikita-bachhas/IoTCourseProject/tree/main/testImages)
 2. Change the following file path in [test.py](https://github.com/nikita-bachhas/IoTCourseProject/blob/main/testImages/test.py): *resp = requests.post("http://192.168.10.141:8000", files={'file': open('/Users/nikitabachhas/IoTCourseProject/IoTCourseProject/TestImages/water_lily.jpg', 'rb')})*
 
