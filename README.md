@@ -87,14 +87,16 @@
 7. Upgrade Pip using the following command: **pip install --upgrade pip**
 8. Install TenserFlow using the following command: **conda install -c conda-forge tensorflow**
 9. Install all necessary packages: *pillow, flask, etc*
-10. Change IP Address to your own in *test.py* and the port number you are utilising in *model.py*
+10. Change IP Address to your own in *test.py*:
 
 <img width="1179" alt="test py Water Lily Test File" src="https://user-images.githubusercontent.com/72136295/235317822-a163fd4a-706a-4c32-86fc-004e8d818dfe.png">
 
+11. Change to an available port number to utilise in *model.py*:
+
 <img width="378" alt="model py Port Number" src="https://user-images.githubusercontent.com/72136295/235318212-e19e295c-f78c-44c5-8de6-3c7c19aad6fc.png">
 
-11. Run python file, using the following command: **python *runfile.py*** 
-12. To deativate the Conda Environment, run the following command: **conda deactivate**
+12. Run python file, using the following command: **python *runfile.py*** 
+13. To deativate the Conda Environment, run the following command: **conda deactivate**
 
 `test.py`
 
