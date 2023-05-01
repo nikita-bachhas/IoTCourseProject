@@ -1,4 +1,4 @@
-# IoT Course Project - Flower Identification Application
+# Intenet of Things (IoT) Course Project - Flower Identification Application
 
 ## Image Classification of Flowers using an Android Application
  Users can take or upload any image of a flower and the type of flower is recognised and returned 
@@ -56,6 +56,14 @@
 ![Accuracy Per Epoch](https://user-images.githubusercontent.com/72136295/235311092-011d2d20-3ebd-4804-ba06-cbce972d2169.png)
 
 - Confusion Matrix:
+   - 3 Classes Most **Easiest** to Identify Based on the Confusion Matrix:
+      1. Dandelion - 154
+      2. Tulip - 154 
+      3. Sunflower - 150
+   - 3 Classes Most **Difficult** to Identify Based on the Confusion Matrix:
+      1. Astilbe - 105 
+      2. Bellflower - 109
+      3. Carnation - 118
 
 ![Confusion Matrix](https://user-images.githubusercontent.com/72136295/235311098-d9c19bfe-14c5-42c8-a08c-542e4a4b8d12.png)
 
@@ -113,4 +121,8 @@
 
 <img width="982" alt="test py Water Lily Test Results" src="https://user-images.githubusercontent.com/72136295/235317829-cdd824a3-cfae-4791-a0d4-2d853ffbfa8f.png">
 
- ## Utilisation of Virtual Machine on Google Cloud Platform
+ ## Google Cloud Platform Virtual Machine 
+
+ `Steps to Create a VM Instance`
+
+ `Steps to Start & Run Flask Server`
