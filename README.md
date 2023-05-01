@@ -89,7 +89,7 @@
 1. Download folder [FlaskServer](https://github.com/nikita-bachhas/IoTCourseProject/tree/main/FlaskServer) and open in any IDE
 2. Ensure Python Version > 3.8 using the following command: **python3 --version**
 3. Ensure Pip Version > 20.3: **pip3 --version**
-4. Install Miniconda using the following command: **curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o Miniconda3-latest-MacOSX-x86_64.shbash Miniconda3-latest-MacOSX-x86_64.sh**
+4. Install Miniconda using the following command: **curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o Miniconda3-latest-MacOSX-x86_64.shbash Miniconda3-latest-MacOSX-x86_64.sh** *(specifically for MacOS; Choose according to your OS)*
 5. Create a Conda Environment using the following command: **conda create --name tf python=3.9**
 6. Activate Conda Evironment using the following command: **conda activate tf**
 7. Upgrade Pip using the following command: **pip install --upgrade pip**
@@ -121,8 +121,29 @@
 
 <img width="982" alt="test py Water Lily Test Results" src="https://user-images.githubusercontent.com/72136295/235317829-cdd824a3-cfae-4791-a0d4-2d853ffbfa8f.png">
 
- ## Google Cloud Platform Virtual Machine 
+## Google Cloud Platform Virtual Machine 
 
- `Steps to Create a VM Instance`
+`Steps to Create a VM Instance`
 
- `Steps to Start & Run Flask Server on VM`
+1. Click on **Compute Engine**
+2. Click on **VM Instances**
+3. Ensure that **Region = asia-southeast1(Singapore)**
+4. Click Create
+
+`Steps to Start & Run Flask Server on VM`
+
+1. Use the command **pwd** to identify the directory that you are in and the command **ls** to get a list of all the files downloaded or uploaded into the virtual machine
+2. Install wget onto your virtual machine using the following command: **sudo apt-get install wget**
+3. Download Miniconda onto your virtual machine using the following command: **wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh** *(specifically for those using a Debian/Linux VM)*
+4. Execute the downloaded Miniconda file in your virtual machine by using the following command: **bash Miniconda3-latest-Linux-x86_64.sh**
+5. Restart your virtual machine
+6. Ensure python is installed by using the following command: **python**
+7. Exit from the python environment using the following command: **exit()**
+8. Upload these three files into the vritual machine: *keras_model.h5*, *labels.txt* and *model.py*
+9. Create a Conda Environment using the following command: **conda create --name tf python=3.9**
+10. Activate Conda Evironment using the following command: **conda activate tf**
+11. Upgrade Pip using the following command: **pip install --upgrade pip**
+12. Install TenserFlow using the following command: **conda install -c conda-forge tensorflow**
+13. Install all necessary packages: *pillow, flask, etc*
+14. Run python file, using the following command: **python *model.py*** 
+15. To deativate the Conda Environment, run the following command: **conda deactivate**
