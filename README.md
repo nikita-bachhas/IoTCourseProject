@@ -125,4 +125,4 @@
 
  `Steps to Create a VM Instance`
 
- `Steps to Start & Run Flask Server`
+ `Steps to Start & Run Flask Server on VM`
