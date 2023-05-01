@@ -12,6 +12,7 @@ import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
+import android.graphics.Typeface;
 import android.media.ExifInterface;
 import android.media.Image;
 import android.net.Network;
@@ -72,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
     Button select_btn;
     Button camera_btn;
     ImageView image_preview;
-    Button predict_btn;
+    Button identify_btn;
     TextView textView;
     String pathToFile;
     private Bitmap bitmap;
@@ -85,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
         image_preview = findViewById(R.id.image_preview);
         camera_btn = findViewById(R.id.camera_btn);
         select_btn = findViewById(R.id.select_btn);
-        predict_btn = findViewById(R.id.predict_btn);
+        identify_btn = findViewById(R.id.identify_btn);
 
         if (Build.VERSION.SDK_INT >= 23) {
             requestPermissions(new String[]{Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE}, 2);
@@ -108,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        predict_btn.setOnClickListener(new View.OnClickListener() {
+        identify_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //To upload image to the server
@@ -192,6 +193,8 @@ public class MainActivity extends AppCompatActivity {
                 TextView textView = findViewById(R.id.textView);
                 if (response.body() != null) {
                     textView.setText(response.body().toString());
+                    textView.setTextSize(25);
+                    textView.setTypeface(null, Typeface.BOLD);
                 }
             }
             @Override
