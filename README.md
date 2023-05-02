@@ -2,6 +2,8 @@
 
 ## Image Classification of Flowers using an Android Application
  Users can take or upload any image of a flower and the type of flower is recognised and returned 
+ 
+ ![Structure of IoT System](https://user-images.githubusercontent.com/72136295/235590518-9c649af5-e367-4346-91ed-2a2480927efe.png)
 
 ## Project Documents
 1. [YouTube Video]()
