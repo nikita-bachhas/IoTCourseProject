@@ -81,7 +81,9 @@
 <img width="503" alt="NetworkClient java IP Address" src="https://user-images.githubusercontent.com/72136295/235318182-a777f42e-1629-40c1-9e86-cd296bc85bce.png">
 
 5. Run on either Emulated Device or Physical Device
- 
+
+<img src="https://user-images.githubusercontent.com/72136295/235587167-39f53825-8d56-4cea-86a4-520c50d54b25.jpeg" width="202" height="427">     <img src="https://user-images.githubusercontent.com/72136295/235587179-180189ef-e69a-4fe6-b8fa-f3ebab10e615.jpg" width="202" height="427">
+
 ## Flask Server
 
 `Steps to Start & Run Flask Server`
