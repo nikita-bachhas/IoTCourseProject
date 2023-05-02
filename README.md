@@ -5,7 +5,10 @@
 
 ## Project Documents
 1. [YouTube Video]()
-2. [Presentation Slides]()
+2. [Presentation Slides](https://github.com/nikita-bachhas/IoTCourseProject/blob/main/Documentation/IoT%20Course%20Project%20Presentation%20Slides.pptx)
+3. [Application Demonstration - Selecting a Photo of a Calendula Flower from Gallery](https://github.com/nikita-bachhas/IoTCourseProject/blob/main/Documentation/Calendula-Gallery.mp4)
+4. [Application Demonstration - Taking a Photo of a Sunflower Flower using Device Camera](https://github.com/nikita-bachhas/IoTCourseProject/blob/main/Documentation/Suflower-Camera.mp4)
+5. [Application Demonstration - Taking a Photo of a Daisy Flower using Device Camera](https://github.com/nikita-bachhas/IoTCourseProject/blob/main/Documentation/Daisy-Camera.mp4)
  
 ## Training of Model
  
