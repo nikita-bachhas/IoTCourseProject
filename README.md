@@ -5,7 +5,6 @@
  
  <img src="https://user-images.githubusercontent.com/72136295/235590518-9c649af5-e367-4346-91ed-2a2480927efe.png" width="341" height="301">   
 
-
 ## Project Documents
 1. [YouTube Video](https://youtu.be/qjLQg6UKjX8)
 2. [Presentation Slides](https://github.com/nikita-bachhas/IoTCourseProject/blob/main/Documentation/IoT%20Course%20Project%20Presentation%20Slides.pptx)
