@@ -3,7 +3,8 @@
 ## Image Classification of Flowers using an Android Application
  Users can take or upload any image of a flower and the type of flower is recognised and returned 
  
- ![Structure of IoT System](https://user-images.githubusercontent.com/72136295/235590518-9c649af5-e367-4346-91ed-2a2480927efe.png)
+ <img src="https://user-images.githubusercontent.com/72136295/235590518-9c649af5-e367-4346-91ed-2a2480927efe.png" width="341" height="301">   
+
 
 ## Project Documents
 1. [YouTube Video]()
@@ -137,6 +138,8 @@
 3. Ensure that **Region = asia-southeast1(Singapore)**
 4. Click Create
 
+<img src="https://user-images.githubusercontent.com/72136295/235889889-cce6cd9b-8c17-4fb2-8674-def4587a1473.png" width="808" height="481">   
+
 `Steps to Start & Run Flask Server on VM`
 
 1. Use the command **pwd** to identify the directory that you are in and the command **ls** to get a list of all the files downloaded or uploaded into the virtual machine
@@ -154,3 +157,5 @@
 13. Install all necessary packages: *pillow, flask, etc*
 14. Run python file, using the following command: **python *model.py*** 
 15. To deativate the Conda Environment, run the following command: **conda deactivate**
+
+<img src="https://user-images.githubusercontent.com/72136295/235890559-7321a403-55f0-489d-b913-13f5423ef2a5.png" width="1270" height="273">   
