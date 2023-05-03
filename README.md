@@ -7,7 +7,7 @@
 
 
 ## Project Documents
-1. [YouTube Video]()
+1. [YouTube Video](https://youtu.be/qjLQg6UKjX8)
 2. [Presentation Slides](https://github.com/nikita-bachhas/IoTCourseProject/blob/main/Documentation/IoT%20Course%20Project%20Presentation%20Slides.pptx)
 3. [Application Demonstration - Selecting a Photo of a Calendula Flower from Gallery](https://github.com/nikita-bachhas/IoTCourseProject/blob/main/Documentation/Calendula-Gallery.mp4)
 4. [Application Demonstration - Taking a Photo of a Sunflower Flower using Device Camera](https://github.com/nikita-bachhas/IoTCourseProject/blob/main/Documentation/Suflower-Camera.mp4)
@@ -158,4 +158,4 @@
 14. Run python file, using the following command: **python *model.py*** 
 15. To deativate the Conda Environment, run the following command: **conda deactivate**
 
-<img src="https://user-images.githubusercontent.com/72136295/235890559-7321a403-55f0-489d-b913-13f5423ef2a5.png" width="1270" height="273">   
+<img src="https://user-images.githubusercontent.com/72136295/235890559-7321a403-55f0-489d-b913-13f5423ef2a5.png" width="762" height="164">   
